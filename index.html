@@ -18,7 +18,7 @@
 
 </head>
 <body>
-    <header class="container mx-auto lg:px-24 px-8 my-8">
+    <header class="container  mx-auto lg:px-24 px-8 my-8">
         <!-- navigation bar -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -62,7 +62,7 @@
       <!-- banner section -->
       <div class="container mx-auto mt-12 lg:px-24 px-8">
         <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative lg:h-[600px] w-full bg-[url(./images/banner1.png)] bg-cover rounded-[8px] bg-center flex items-center justify-center text-7xl text-white font-bold text-center ">
+            <div id="slide1" class="carousel-item relative lg:h-[600px] w-full bg-[url('./images/banner1.png')] bg-cover rounded-[8px] bg-center flex items-center justify-center text-7xl text-white font-bold text-center ">
                 
               
               <div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-[356px] lg:left-5 lg:right-5 lg:top-1/2">
@@ -73,7 +73,7 @@
               
             </div> 
             
-            <div id="slide2" class="carousel-item relative h-[600px] bg-[url(./images/banner2.png)] bg-cover rounded-[8px] bg-center w-full flex items-center justify-center text-7xl text-white font-bold text-center">
+            <div id="slide2" class="carousel-item relative h-[600px] bg-[url('./images/banner2.png')] bg-cover rounded-[8px] bg-center w-full flex items-center justify-center text-7xl text-white font-bold text-center">
                 
               
               <div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-[356px] lg:left-5 lg:right-5 lg:top-1/2">
@@ -81,7 +81,7 @@
                 <a href="#slide3" class="btn btn-circle">❯</a>
               </div>
             </div> 
-            <div id="slide3" class="carousel-item relative h-[600px] bg-[url(./images/banner3.png)] rounded-[8px] bg-cover bg-center w-full flex items-center justify-center text-7xl text-white font-bold shadow-md text-center">
+            <div id="slide3" class="carousel-item relative h-[600px] bg-[url('./images/banner3.png')] rounded-[8px] bg-cover bg-center w-full flex items-center justify-center text-7xl text-white font-bold shadow-md text-center">
                
               
               <div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-[356px] lg:left-5 lg:right-5 lg:top-1/2">
@@ -89,7 +89,7 @@
                 <a href="#slide4" class="btn btn-circle">❯</a>
               </div>
             </div> 
-            <div id="slide4" class="carousel-item h-[600px] bg-[url(./images/banner4.png)] relative rounded-[8px] bg-cover bg-center w-full flex items-center justify-center text-7xl text-white shadow-md font-bold text-center">
+            <div id="slide4" class="carousel-item h-[600px] bg-[url('./images/banner4.png')] relative rounded-[8px] bg-cover bg-center w-full flex items-center justify-center text-7xl text-white shadow-md font-bold text-center">
                
               
               <div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-[356px] lg:left-5 lg:right-5 lg:top-1/2">
@@ -153,6 +153,7 @@
           <p class="font-medium lg:w-2/3 mt-4 text-center text-base text-[#13131899]">Discover innovation and style in Our New Products collection. Elevate your experience with cutting-edge design, quality craftsmanship, and unmatched performance.</p>
       </div>
       <div class="mt-12 mb-5 grid space-x-3 space-y-3    grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+
         <div class="flex flex-col justify-center items-center text-center">
           <div class="card card-side bg-base-100 shadow-xl">
             <figure class="p-4"><img src="./Images/5.png" alt="Movie"/></figure>
@@ -290,6 +291,142 @@
 
       
       </div>
+
+       </section>
+       <!-- Clients Question -->
+       <section class="container mt-20 mx-auto lg:px-24 px-8">
+        <div class=" flex flex-col justify-center items-center ">
+          <h1 class="lg:text-5xl text-2xl font-bold">Clients Question</h1>
+          <p class="font-medium w-2/3 mt-4 text-center text-base text-[#13131899]">Engage, inquire, and refine with Clients Question. Elevate understanding, foster collaboration, and deliver tailored solutions in a dynamic client-focused environment.</p>
+      </div>
+
+      <div class=" justify-between flex-col mt-12 mb-5 grid space-x-3 space-y-3    grid-cols-1 md:grid-cols-2 lg:grid-cols-2  px-20 h-[700px] lg:space-x-12 shadow-lg rounded-md items-center ">
+        <div>
+          <img src="Images/11.png" alt="">
+        </div>
+        <div class="m-4">
+          <div>
+            <h2 class=" font-bold text-xl text-[#131318]"> Baseball jackets</h2>
+              <p class=" text-base font-medium text-[#13131899] text-left">Classic style meets sporty comfort in our timeless baseball jackets.</p>
+
+          </div>
+          <div class="divider h-[1px]"></div>
+          <div>
+            <div class="collapse  bg-white collapse-plus ">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                <h4 class="text-xl font-bold">Hockey Training</h4>
+              </div>
+              <div class="collapse-content"> 
+                <p>Unleash your potential on the ice with Hockey Training. Elevate skills, sharpen strategies, and foster teamwork in an intensive program designed for enthusiasts, amateurs, and aspiring professionals alike.</p>
+              </div>
+            </div>
+            <hr class="h-[2px] bg-[#1313181A] rounded-sm">
+            
+            <div class="collapse  bg-white collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                <h4 class="text-xl font-bold">Private Lessons</h4>
+              </div>
+              <div class="collapse-content"> 
+                <p>Transform your abilities with personalized attention in Private Lessons. Expert instructors tailor sessions to your goals, ensuring a dynamic and effective learning experience across various subjects and skills.</p>
+              </div>
+            </div>
+            <hr class="h-[2px] bg-[#1313181A] rounded-sm">
+            
+            <div class="collapse  bg-white collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                <h4 class="text-xl font-bold">Ski Touring</h4>
+              </div>
+              <div class="collapse-content"> 
+                <p>Embark on an exhilarating adventure with Ski Touring. Traverse pristine landscapes, ascend snow-capped peaks, and experience the thrill of uncharted terrains while honing your skills in this dynamic winter pursuit.</p>
+              </div>
+            </div>
+            <hr class="h-[2px] bg-[#1313181A] rounded-sm">
+
+
+            <div class="collapse  bg-white collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                <h4 class="text-xl font-bold">Booking</h4>
+              </div>
+              <div class="collapse-content"> 
+                <p>Simplify and streamline your plans with Booking. Explore seamless reservations, enjoy hassle-free scheduling, and access a world of options at your fingertips. Effortless bookings, tailored to your preferences.</p>
+              </div>
+            </div>
+            <hr class="h-[2px] bg-[#1313181A] rounded-sm">
+           
+            <div class="collapse  bg-white collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                <h4 class="text-xl font-bold">Pricings</h4>
+              </div>
+              <div class="collapse-content"> 
+                <p>Discover transparent and flexible options with Pricings. Tailor your budget to services that suit your needs, ensuring value and quality. Navigate pricing structures with ease and make informed decisions effortlessly.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+       </section>
+       <!-- Get in Touch section -->
+       <section class="container  mt-10 mx-auto lg:px-24 px-8">
+        <!-- card -->
+       <div class="mt-12 mb-5 grid space-x-3 space-y-3    grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+        <div>
+          <div class=" shadow-xl  p-4">
+            <div class="card m-4 w-96 bg-[#BCED6D1A] ">
+              <div class=" m-4 card-body">
+                <div>
+                  <img src="./Images/Group 1171275317.png" alt="">
+                </div>
+                <p class="text-[#13131866]">Phone Number : </p>
+                <h2 class="card-title text-[#131318]">(+62) 123-321-543</h2>
+               
+                <div class="card-actions justify-end">
+                 
+                </div>
+              </div>
+            </div>
+            <div class="card m-4 w-96  bg-[#BCED6D1A] ">
+              <div class="card-body">
+                <div>
+                  <img src="./Images/Group 1171275318.png" alt="">
+                </div>
+                <p class="text-[#13131866]">Email :  </p>
+                <h2 class="card-title text-[#131318]">hockeys@support.com</h2>
+               
+                <div class="card-actions justify-end">
+                 
+                </div>
+              </div>
+            </div>
+            <div class="card m-4 w-96 bg-[#629CF31A] ">
+              <div class="card-body">
+                <div>
+                <img src="./Images/Group 1171275321.png" alt="">
+              </div>
+              <p class="text-[#13131866]">Location :  </p>
+              <h2 class="card-title text-[#131318]">152/1 Mohakhali Wireless Gate</h2>
+                <div class="card-actions justify-end">
+                  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+
+        </div>
+
+
+       </div>
+
+      
+        
 
        </section>
 
